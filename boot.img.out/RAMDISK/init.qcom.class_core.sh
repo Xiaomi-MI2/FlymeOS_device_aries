@@ -31,7 +31,7 @@ target=`getprop ro.board.platform`
 soc_hwplatform=`cat /sys/devices/system/soc/soc0/hw_platform` 2> /dev/null
 soc_hwid=`cat /sys/devices/system/soc/soc0/id` 2> /dev/null
 soc_hwver=`cat /sys/devices/system/soc/soc0/platform_version` 2> /dev/null
-
+soc_raw_id=`cat /sys/devices/system/soc/soc0/raw_id` 2> /dev/null
 
 # Dynamic Memory Managment (DMM) provides a sys file system to the userspace
 # that can be used to plug in/out memory that has been configured as unstable.
@@ -195,5 +195,11 @@ case "$target" in
 
     "msm8960")
         init_DMM
+        ;;
+esac
+
+case "$soc_raw_id" in
+    "1812")
+        setprop ro.product.model MI 2S
         ;;
 esac
