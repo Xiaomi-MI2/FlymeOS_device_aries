@@ -5,10 +5,10 @@ assert(getprop("ro.product.device") == "aries" ||
 show_progress(0.750000, 0);
 format("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/system", "0", "/system");
 mount("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/system", "/system", "");
+mount("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/userdata", "/data", "");
 package_extract_dir("recovery", "/system");
 package_extract_dir("system", "/system");
 package_extract_dir("data", "/data");
-set_metadata_recursive("/data/app", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0644, "capabilities", 0x0);
 set_metadata_recursive("/data/system_app", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0644, "capabilities", 0x0);
 symlink("/data/system_app/app", "/system/app");
 symlink("/data/system_app/priv-app", "/system/priv-app");
@@ -326,5 +326,6 @@ set_metadata("/system/xbin/supolicy", "uid", 0, "gid", 0, "mode", 0755, "capabil
 show_progress(0.050000, 5);
 package_extract_file("boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
 show_progress(0.200000, 10);
+unmount("/data");
 unmount("/system");
 
