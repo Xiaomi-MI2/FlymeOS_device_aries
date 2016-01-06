@@ -12,7 +12,7 @@ flyme clean
 flyme fullota
 
 echo
-echo ">>> make merge partition patch"
+echo ">>> make sdcard stdalone"
 echo
 cp -v -rf $DEVICE_DIR/boot.img.out $DEVICE_DIR/boot.img.out.bak
 cp -v -rf $DEVICE_DIR/framework-res $DEVICE_DIR/framework-res.bak
