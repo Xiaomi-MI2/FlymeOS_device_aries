@@ -38,7 +38,11 @@
 
     move-result-object v1
 
+<<<<<<< HEAD
     const v2, #android:drawable@sym_def_app_icon#t
+=======
+    const v2, 0x1080093
+>>>>>>> 362867e... reset device
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

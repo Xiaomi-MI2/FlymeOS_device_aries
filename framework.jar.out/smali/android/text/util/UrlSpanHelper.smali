@@ -1090,11 +1090,19 @@
 
     invoke-virtual {v0, v3}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
+<<<<<<< HEAD
     const/high16 v3, #android:string@cancel#t
 
     invoke-virtual {v0, v3, v5}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     const v3, #android:string@ok#t
+=======
+    const/high16 v3, 0x1040000
+
+    invoke-virtual {v0, v3, v5}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+
+    const v3, 0x104000a
+>>>>>>> 362867e... reset device
 
     new-instance v4, Landroid/text/util/UrlSpanHelper$6;
 

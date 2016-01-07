@@ -208,7 +208,11 @@
 
     move-result v3
 
+<<<<<<< HEAD
     const v4, #android:id@split_action_bar#t
+=======
+    const v4, 0x1020380
+>>>>>>> 362867e... reset device
 
     if-ne v3, v4, :cond_0
 
@@ -1360,7 +1364,11 @@
     .prologue
     invoke-super {p0}, Landroid/widget/FrameLayout;->onFinishInflate()V
 
+<<<<<<< HEAD
     const v0, #android:id@action_bar#t
+=======
+    const v0, 0x102037e
+>>>>>>> 362867e... reset device
 
     invoke-virtual {p0, v0}, Lcom/android/internal/widget/MzActionBarContainer;->findViewById(I)Landroid/view/View;
 
@@ -1368,7 +1376,11 @@
 
     iput-object v0, p0, Lcom/android/internal/widget/MzActionBarContainer;->mActionBarView:Landroid/view/View;
 
+<<<<<<< HEAD
     const v0, #android:id@action_context_bar#t
+=======
+    const v0, 0x102037f
+>>>>>>> 362867e... reset device
 
     invoke-virtual {p0, v0}, Lcom/android/internal/widget/MzActionBarContainer;->findViewById(I)Landroid/view/View;
 

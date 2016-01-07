@@ -866,7 +866,11 @@
 
     .line 4586
     :cond_0
+<<<<<<< HEAD
     const v2, #android:id@checkbox#t
+=======
+    const v2, 0x1020001
+>>>>>>> 362867e... reset device
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

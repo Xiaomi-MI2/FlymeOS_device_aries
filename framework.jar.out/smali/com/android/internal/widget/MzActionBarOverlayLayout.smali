@@ -120,8 +120,13 @@
 
     :array_0
     .array-data 4
+<<<<<<< HEAD
         #android:attr@actionBarSize#t
         #android:attr@windowContentOverlay#t
+=======
+        0x10102eb
+        0x1010059
+>>>>>>> 362867e... reset device
     .end array-data
 .end method
 
@@ -2488,7 +2493,11 @@
 
     if-nez v0, :cond_0
 
+<<<<<<< HEAD
     const v0, #android:id@content#t
+=======
+    const v0, 0x1020002
+>>>>>>> 362867e... reset device
 
     invoke-virtual {p0, v0}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->findViewById(I)Landroid/view/View;
 
@@ -2496,7 +2505,11 @@
 
     iput-object v0, p0, Lcom/android/internal/widget/MzActionBarOverlayLayout;->mContent:Landroid/view/View;
 
+<<<<<<< HEAD
     const v0, #android:id@action_bar_container#t
+=======
+    const v0, 0x102037d
+>>>>>>> 362867e... reset device
 
     invoke-virtual {p0, v0}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->findViewById(I)Landroid/view/View;
 
@@ -2506,7 +2519,11 @@
 
     iput-object v0, p0, Lcom/android/internal/widget/MzActionBarOverlayLayout;->mActionBarTop:Lcom/android/internal/widget/MzActionBarContainer;
 
+<<<<<<< HEAD
     const v0, #android:id@action_bar#t
+=======
+    const v0, 0x102037e
+>>>>>>> 362867e... reset device
 
     invoke-virtual {p0, v0}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->findViewById(I)Landroid/view/View;
 
@@ -2518,7 +2535,11 @@
 
     iput-object v0, p0, Lcom/android/internal/widget/MzActionBarOverlayLayout;->mDecorToolbar:Lcom/android/internal/widget/DecorToolbar;
 
+<<<<<<< HEAD
     const v0, #android:id@split_action_bar#t
+=======
+    const v0, 0x1020380
+>>>>>>> 362867e... reset device
 
     invoke-virtual {p0, v0}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->findViewById(I)Landroid/view/View;
 
@@ -2990,7 +3011,11 @@
 
     move-result-object v6
 
+<<<<<<< HEAD
     const v7, #android:bool@split_action_bar_is_narrow#t
+=======
+    const v7, 0x1120008
+>>>>>>> 362867e... reset device
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -3101,7 +3126,11 @@
 
     invoke-interface {v5, v3}, Lcom/android/internal/widget/DecorToolbar;->setSplitWhenNarrow(Z)V
 
+<<<<<<< HEAD
     const v5, #android:id@action_context_bar#t
+=======
+    const v5, 0x102037f
+>>>>>>> 362867e... reset device
 
     invoke-virtual {p0, v5}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->findViewById(I)Landroid/view/View;
 

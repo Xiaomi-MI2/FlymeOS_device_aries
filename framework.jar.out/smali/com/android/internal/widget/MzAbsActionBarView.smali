@@ -185,7 +185,11 @@
 
     move-result-object v1
 
+<<<<<<< HEAD
     const v2, #android:attr@actionBarPopupTheme#t
+=======
+    const v2, 0x101048d
+>>>>>>> 362867e... reset device
 
     invoke-virtual {v1, v2, v0, v3}, Landroid/content/res/Resources$Theme;->resolveAttribute(ILandroid/util/TypedValue;Z)Z
 
@@ -1347,7 +1351,11 @@
 
     sget-object v3, Landroid/R$styleable;->ActionBar:[I
 
+<<<<<<< HEAD
     const v4, #android:attr@actionBarStyle#t
+=======
+    const v4, 0x10102ce
+>>>>>>> 362867e... reset device
 
     invoke-virtual {v1, v2, v3, v4, v5}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

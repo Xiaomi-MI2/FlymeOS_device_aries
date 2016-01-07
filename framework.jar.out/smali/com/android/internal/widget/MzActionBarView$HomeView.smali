@@ -221,7 +221,11 @@
     .locals 1
 
     .prologue
+<<<<<<< HEAD
     const v0, #android:id@up#t
+=======
+    const v0, 0x102003b
+>>>>>>> 362867e... reset device
 
     invoke-virtual {p0, v0}, Lcom/android/internal/widget/MzActionBarView$HomeView;->findViewById(I)Landroid/view/View;
 
@@ -231,7 +235,11 @@
 
     iput-object v0, p0, Lcom/android/internal/widget/MzActionBarView$HomeView;->mUpView:Landroid/widget/ImageView;
 
+<<<<<<< HEAD
     const v0, #android:id@home#t
+=======
+    const v0, 0x102002c
+>>>>>>> 362867e... reset device
 
     invoke-virtual {p0, v0}, Lcom/android/internal/widget/MzActionBarView$HomeView;->findViewById(I)Landroid/view/View;
 

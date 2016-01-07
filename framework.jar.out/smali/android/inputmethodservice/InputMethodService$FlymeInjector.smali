@@ -447,7 +447,11 @@
 
     iget v7, p0, Landroid/view/inputmethod/EditorInfo;->fieldId:I
 
+<<<<<<< HEAD
     const v8, #android:id@edit#t
+=======
+    const v8, 0x1020003
+>>>>>>> 362867e... reset device
 
     if-ne v7, v8, :cond_1
 

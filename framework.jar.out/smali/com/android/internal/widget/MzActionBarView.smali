@@ -150,7 +150,11 @@
 
     iput v0, p0, Lcom/android/internal/widget/MzActionBarView;->mDisplayOptions:I
 
+<<<<<<< HEAD
     const v0, #android:string@action_bar_up_description#t
+=======
+    const v0, 0x10405b9
+>>>>>>> 362867e... reset device
 
     iput v0, p0, Lcom/android/internal/widget/MzActionBarView;->mDefaultUpDescription:I
 
@@ -182,7 +186,11 @@
 
     sget-object v0, Landroid/R$styleable;->ActionBar:[I
 
+<<<<<<< HEAD
     const v1, #android:attr@actionBarStyle#t
+=======
+    const v1, 0x10102ce
+>>>>>>> 362867e... reset device
 
     invoke-virtual {p1, p2, v0, v1, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -236,10 +244,17 @@
     move-result-object v10
 
     .local v10, "inflater":Landroid/view/LayoutInflater;
+<<<<<<< HEAD
     const v9, #android:layout@action_bar_home#t
 
     .local v9, "homeResId":I
     const v0, #android:layout@action_bar_up_container#t
+=======
+    const v9, 0x1090018
+
+    .local v9, "homeResId":I
+    const v0, 0x109001b
+>>>>>>> 362867e... reset device
 
     invoke-virtual {v10, v0, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -249,7 +264,11 @@
 
     iput-object v0, p0, Lcom/android/internal/widget/MzActionBarView;->mUpGoerFive:Landroid/view/ViewGroup;
 
+<<<<<<< HEAD
     const v0, #android:layout@action_bar_home#t
+=======
+    const v0, 0x1090018
+>>>>>>> 362867e... reset device
 
     iget-object v1, p0, Lcom/android/internal/widget/MzActionBarView;->mUpGoerFive:Landroid/view/ViewGroup;
 
@@ -366,7 +385,11 @@
     .line 250
     new-instance v0, Lcom/android/internal/view/menu/ActionMenuItem;
 
+<<<<<<< HEAD
     const v3, #android:id@home#t
+=======
+    const v3, 0x102002c
+>>>>>>> 362867e... reset device
 
     iget-object v6, p0, Lcom/android/internal/widget/MzActionBarView;->mTitle:Ljava/lang/CharSequence;
 
@@ -635,7 +658,11 @@
 
     move-result-object v4
 
+<<<<<<< HEAD
     const v5, #android:string@action_bar_home_subtitle_description_format#t
+=======
+    const v5, 0x10405bc
+>>>>>>> 362867e... reset device
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -681,7 +708,11 @@
 
     move-result-object v4
 
+<<<<<<< HEAD
     const v5, #android:string@action_bar_home_description#t
+=======
+    const v5, 0x10405b8
+>>>>>>> 362867e... reset device
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -698,7 +729,11 @@
 
     move-result-object v4
 
+<<<<<<< HEAD
     const v5, #android:string@action_bar_home_description_format#t
+=======
+    const v5, 0x10405bb
+>>>>>>> 362867e... reset device
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -786,10 +821,17 @@
     move-result-object v1
 
     .local v1, "inflater":Landroid/view/LayoutInflater;
+<<<<<<< HEAD
     const v0, #android:layout@action_bar_home#t
 
     .local v0, "homeResId":I
     const v3, #android:layout@action_bar_home#t
+=======
+    const v0, 0x1090018
+
+    .local v0, "homeResId":I
+    const v3, 0x1090018
+>>>>>>> 362867e... reset device
 
     iget-object v4, p0, Lcom/android/internal/widget/MzActionBarView;->mUpGoerFive:Landroid/view/ViewGroup;
 
@@ -822,7 +864,11 @@
 
     move-result-object v4
 
+<<<<<<< HEAD
     const v5, #android:string@action_bar_up_description#t
+=======
+    const v5, 0x10405b9
+>>>>>>> 362867e... reset device
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -891,7 +937,11 @@
 
     .line 940
     .local v0, "inflater":Landroid/view/LayoutInflater;
+<<<<<<< HEAD
     const v1, #android:layout@action_bar_title_item#t
+=======
+    const v1, 0x109001a
+>>>>>>> 362867e... reset device
 
     invoke-virtual {v0, v1, p0, v4}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -904,7 +954,11 @@
     .line 941
     iget-object v1, p0, Lcom/android/internal/widget/MzActionBarView;->mTitleLayout:Landroid/widget/LinearLayout;
 
+<<<<<<< HEAD
     const v2, #android:id@action_bar_title#t
+=======
+    const v2, 0x10202b6
+>>>>>>> 362867e... reset device
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -917,7 +971,11 @@
     .line 942
     iget-object v1, p0, Lcom/android/internal/widget/MzActionBarView;->mTitleLayout:Landroid/widget/LinearLayout;
 
+<<<<<<< HEAD
     const v2, #android:id@action_bar_subtitle#t
+=======
+    const v2, 0x10202b7
+>>>>>>> 362867e... reset device
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
 
@@ -2031,7 +2089,11 @@
 
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView;->mIndeterminateProgressView:Landroid/widget/ProgressBar;
 
+<<<<<<< HEAD
     const v1, #android:id@progress_circular#t
+=======
+    const v1, 0x102037a
+>>>>>>> 362867e... reset device
 
     invoke-virtual {v0, v1}, Landroid/widget/ProgressBar;->setId(I)V
 
@@ -2069,7 +2131,11 @@
 
     iget-object v0, p0, Lcom/android/internal/widget/MzActionBarView;->mProgressView:Landroid/widget/ProgressBar;
 
+<<<<<<< HEAD
     const v1, #android:id@progress_horizontal#t
+=======
+    const v1, 0x102037b
+>>>>>>> 362867e... reset device
 
     invoke-virtual {v0, v1}, Landroid/widget/ProgressBar;->setId(I)V
 
@@ -6735,7 +6801,11 @@
 
     iget-object v5, p0, Lcom/android/internal/widget/MzActionBarView;->mActionMenuPresenter:Landroid/widget/MzActionMenuPresenter;
 
+<<<<<<< HEAD
     const v6, #android:id@action_menu_presenter#t
+=======
+    const v6, 0x102003f
+>>>>>>> 362867e... reset device
 
     invoke-virtual {v5, v6}, Landroid/widget/MzActionMenuPresenter;->setId(I)V
 
@@ -7144,7 +7214,11 @@
 
     iget-object v3, p0, Lcom/android/internal/widget/MzActionBarView;->mContext:Landroid/content/Context;
 
+<<<<<<< HEAD
     const v4, #android:attr@actionDropDownStyle#t
+=======
+    const v4, 0x10102d7
+>>>>>>> 362867e... reset device
 
     invoke-direct {v2, v3, v5, v4}, Landroid/widget/Spinner;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -7152,7 +7226,11 @@
 
     iget-object v2, p0, Lcom/android/internal/widget/MzActionBarView;->mSpinner:Landroid/widget/Spinner;
 
+<<<<<<< HEAD
     const v3, #android:id@action_bar_spinner#t
+=======
+    const v3, 0x1020042
+>>>>>>> 362867e... reset device
 
     invoke-virtual {v2, v3}, Landroid/widget/Spinner;->setId(I)V
 
@@ -7160,7 +7238,11 @@
 
     iget-object v3, p0, Lcom/android/internal/widget/MzActionBarView;->mContext:Landroid/content/Context;
 
+<<<<<<< HEAD
     const v4, #android:attr@actionBarTabBarStyle#t
+=======
+    const v4, 0x10102f4
+>>>>>>> 362867e... reset device
 
     invoke-direct {v2, v3, v5, v4}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 

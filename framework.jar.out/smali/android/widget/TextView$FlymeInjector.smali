@@ -317,7 +317,11 @@
     .prologue
     const/4 v0, 0x1
 
+<<<<<<< HEAD
     const v1, #android:id@startSelectingText#t
+=======
+    const v1, 0x1020028
+>>>>>>> 362867e... reset device
 
     if-ne v1, p1, :cond_0
 

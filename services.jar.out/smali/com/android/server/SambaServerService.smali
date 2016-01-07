@@ -777,7 +777,11 @@
     invoke-direct {v2, v14, v15}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
     .local v2, "contentView":Landroid/widget/RemoteViews;
+<<<<<<< HEAD
     const v14, #android:id@icon#t
+=======
+    const v14, 0x1020006
+>>>>>>> 362867e... reset device
 
     invoke-virtual {v2, v14, v6}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 
@@ -902,7 +906,11 @@
 
     iget-object v14, v14, Landroid/app/Notification;->contentView:Landroid/widget/RemoteViews;
 
+<<<<<<< HEAD
     const v15, #android:id@title#t
+=======
+    const v15, 0x1020016
+>>>>>>> 362867e... reset device
 
     invoke-virtual {v14, v15, v13}, Landroid/widget/RemoteViews;->setTextViewText(ILjava/lang/CharSequence;)V
 

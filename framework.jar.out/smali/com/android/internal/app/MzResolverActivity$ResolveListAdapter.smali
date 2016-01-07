@@ -3043,7 +3043,11 @@
     .param p2, "position"    # I
 
     .prologue
+<<<<<<< HEAD
     const v0, #android:id@icon#t
+=======
+    const v0, 0x1020006
+>>>>>>> 362867e... reset device
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

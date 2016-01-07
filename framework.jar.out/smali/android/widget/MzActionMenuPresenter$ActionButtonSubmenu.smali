@@ -35,7 +35,11 @@
 
     const/4 v4, 0x0
 
+<<<<<<< HEAD
     const v5, #android:attr@actionOverflowMenuStyle#t
+=======
+    const v5, 0x1010444
+>>>>>>> 362867e... reset device
 
     move-object v0, p0
 
