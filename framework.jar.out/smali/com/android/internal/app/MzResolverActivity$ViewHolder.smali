@@ -30,11 +30,7 @@
     .prologue
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-<<<<<<< HEAD
     const v0, #android:id@text1#t
-=======
-    const v0, 0x1020014
->>>>>>> 362867e... reset device
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -44,11 +40,7 @@
 
     iput-object v0, p0, Lcom/android/internal/app/MzResolverActivity$ViewHolder;->text:Landroid/widget/TextView;
 
-<<<<<<< HEAD
     const v0, #android:id@icon#t
-=======
-    const v0, 0x1020006
->>>>>>> 362867e... reset device
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

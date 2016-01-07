@@ -599,11 +599,7 @@
 
     iget-object v11, v11, Lcom/android/internal/policy/impl/PhoneWindowManager;->mFlymeBootMsgTitle:Landroid/widget/TextView;
 
-<<<<<<< HEAD
     const v12, #android:string@android_upgrading_title#t
-=======
-    const v12, 0x10404ab
->>>>>>> 362867e... reset device
 
     invoke-virtual {v11, v12}, Landroid/widget/TextView;->setText(I)V
 

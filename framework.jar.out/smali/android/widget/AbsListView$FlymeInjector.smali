@@ -653,11 +653,7 @@
     .local v1, "child":Landroid/view/View;
     if-eqz v1, :cond_0
 
-<<<<<<< HEAD
     const v2, #android:id@checkbox#t
-=======
-    const v2, 0x1020001
->>>>>>> 362867e... reset device
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1429,11 +1425,7 @@
 
     iput-object p1, p0, Landroid/widget/AbsListView;->mDragShawdowView:Landroid/view/View;
 
-<<<<<<< HEAD
     const v5, #android:id@checkbox#t
-=======
-    const v5, 0x1020001
->>>>>>> 362867e... reset device
 
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -2610,11 +2602,7 @@
 
     .line 8515
     :cond_0
-<<<<<<< HEAD
     const v2, #android:id@checkbox#t
-=======
-    const v2, 0x1020001
->>>>>>> 362867e... reset device
 
     invoke-virtual {p1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

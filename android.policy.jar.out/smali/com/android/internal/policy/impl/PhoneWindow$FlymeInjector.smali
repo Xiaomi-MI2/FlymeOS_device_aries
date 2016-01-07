@@ -147,11 +147,7 @@
 
     move-result-object v1
 
-<<<<<<< HEAD
     const v3, #android:id@home#t
-=======
-    const v3, 0x102002c
->>>>>>> 362867e... reset device
 
     const-string v6, "NFC_SHARE"
 

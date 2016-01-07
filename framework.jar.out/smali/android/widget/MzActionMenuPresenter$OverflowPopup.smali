@@ -29,11 +29,7 @@
     .prologue
     iput-object p1, p0, Landroid/widget/MzActionMenuPresenter$OverflowPopup;->this$0:Landroid/widget/MzActionMenuPresenter;
 
-<<<<<<< HEAD
     const v5, #android:attr@actionOverflowMenuStyle#t
-=======
-    const v5, 0x1010444
->>>>>>> 362867e... reset device
 
     move-object v0, p0
 

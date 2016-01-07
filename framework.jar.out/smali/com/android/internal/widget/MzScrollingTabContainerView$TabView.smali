@@ -43,11 +43,7 @@
 
     const/4 v0, 0x0
 
-<<<<<<< HEAD
     const v1, #android:attr@actionBarTabStyle#t
-=======
-    const v1, 0x10102f3
->>>>>>> 362867e... reset device
 
     invoke-direct {p0, p2, v0, v1}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -653,11 +649,7 @@
 
     move-result-object v10
 
-<<<<<<< HEAD
     const v11, #android:attr@actionBarTabTextStyle#t
-=======
-    const v11, 0x10102f5
->>>>>>> 362867e... reset device
 
     invoke-direct {v8, v10, v12, v11}, Landroid/widget/TextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 

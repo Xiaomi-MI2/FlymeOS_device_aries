@@ -1142,11 +1142,7 @@
     .local v4, "states":[[I
     new-array v5, v8, [I
 
-<<<<<<< HEAD
     const v6, #android:attr@state_enabled#t
-=======
-    const v6, 0x101009e
->>>>>>> 362867e... reset device
 
     aput v6, v5, v7
 
@@ -1775,11 +1771,7 @@
     .line 739
     iget-object v10, p0, Lcom/android/internal/app/AlertControllerExt;->mWindow:Landroid/view/Window;
 
-<<<<<<< HEAD
     const v11, #android:id@message#t
-=======
-    const v11, 0x102000b
->>>>>>> 362867e... reset device
 
     invoke-virtual {v10, v11}, Landroid/view/Window;->findViewById(I)Landroid/view/View;
 
@@ -1821,11 +1813,7 @@
 
     sget-object v12, Landroid/R$styleable;->Theme:[I
 
-<<<<<<< HEAD
     const v13, #android:attr@windowTitleStyle#t
-=======
-    const v13, 0x101005b
->>>>>>> 362867e... reset device
 
     const/4 v14, 0x0
 
@@ -2335,11 +2323,7 @@
     .line 839
     iget-object v1, p0, Lcom/android/internal/app/AlertControllerExt;->mWindow:Landroid/view/Window;
 
-<<<<<<< HEAD
     const v4, #android:id@icon#t
-=======
-    const v4, 0x1020006
->>>>>>> 362867e... reset device
 
     invoke-virtual {v1, v4}, Landroid/view/Window;->findViewById(I)Landroid/view/View;
 
@@ -2480,11 +2464,7 @@
 
     iget-object v2, p0, Lcom/android/internal/app/AlertControllerExt;->mContext:Landroid/content/Context;
 
-<<<<<<< HEAD
     const v3, #android:style@TextAppearance.DeviceDefault.Small#t
-=======
-    const v3, 0x10301b3
->>>>>>> 362867e... reset device
 
     invoke-virtual {v1, v2, v3}, Landroid/widget/TextView;->setTextAppearance(Landroid/content/Context;I)V
 
@@ -3958,11 +3938,7 @@
     .line 696
     iget-object v0, p0, Lcom/android/internal/app/AlertControllerExt;->mWindow:Landroid/view/Window;
 
-<<<<<<< HEAD
     const v1, #android:id@mask#t
-=======
-    const v1, 0x102002e
->>>>>>> 362867e... reset device
 
     invoke-virtual {v0, v1}, Landroid/view/Window;->findViewById(I)Landroid/view/View;
 

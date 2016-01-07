@@ -133,11 +133,7 @@
     .line 173
     new-array v0, v4, [I
 
-<<<<<<< HEAD
     const v1, #android:attr@state_expanded#t
-=======
-    const v1, 0x10100a8
->>>>>>> 362867e... reset device
 
     aput v1, v0, v3
 
@@ -146,11 +142,7 @@
     .line 177
     new-array v0, v4, [I
 
-<<<<<<< HEAD
     const v1, #android:attr@state_empty#t
-=======
-    const v1, 0x10100a9
->>>>>>> 362867e... reset device
 
     aput v1, v0, v3
 
@@ -191,11 +183,7 @@
     .line 193
     new-array v0, v4, [I
 
-<<<<<<< HEAD
     const v1, #android:attr@state_last#t
-=======
-    const v1, 0x10100a6
->>>>>>> 362867e... reset device
 
     aput v1, v0, v3
 
@@ -206,13 +194,8 @@
     .line 181
     :array_0
     .array-data 4
-<<<<<<< HEAD
         #android:attr@state_expanded#t
         #android:attr@state_empty#t
-=======
-        0x10100a8
-        0x10100a9
->>>>>>> 362867e... reset device
     .end array-data
 .end method
 
@@ -236,11 +219,7 @@
     .param p2, "attrs"    # Landroid/util/AttributeSet;
 
     .prologue
-<<<<<<< HEAD
     const v0, #android:attr@expandableListViewStyle#t
-=======
-    const v0, 0x101006f
->>>>>>> 362867e... reset device
 
     invoke-direct {p0, p1, p2, v0}, Landroid/widget/ExpandableListViewMz;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 

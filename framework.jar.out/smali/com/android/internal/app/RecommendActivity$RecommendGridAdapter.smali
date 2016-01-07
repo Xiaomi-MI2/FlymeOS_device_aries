@@ -113,11 +113,7 @@
 
     .line 373
     :goto_0
-<<<<<<< HEAD
     const v5, #android:id@icon#t
-=======
-    const v5, 0x1020006
->>>>>>> 362867e... reset device
 
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -128,11 +124,7 @@
 
     .line 374
     .restart local v1    # "imageView":Landroid/widget/ImageView;
-<<<<<<< HEAD
     const v5, #android:id@text1#t
-=======
-    const v5, 0x1020014
->>>>>>> 362867e... reset device
 
     invoke-virtual {v3, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

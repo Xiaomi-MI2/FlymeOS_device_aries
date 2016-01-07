@@ -267,11 +267,7 @@
 
     if-nez v1, :cond_0
 
-<<<<<<< HEAD
     const v3, #android:id@content#t
-=======
-    const v3, 0x1020002
->>>>>>> 362867e... reset device
 
     invoke-virtual {v0, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -769,11 +765,7 @@
     :goto_0
     iget-object v3, p0, Lcom/android/internal/app/ActionBarImpl;->mContext:Landroid/content/Context;
 
-<<<<<<< HEAD
     const v4, #android:interpolator@accelerate_decelerate#t
-=======
-    const v4, 0x10c0006
->>>>>>> 362867e... reset device
 
     invoke-static {v3, v4}, Landroid/view/animation/AnimationUtils;->loadInterpolator(Landroid/content/Context;I)Landroid/view/animation/Interpolator;
 
@@ -951,11 +943,7 @@
     :cond_2
     iget-object v3, p0, Lcom/android/internal/app/ActionBarImpl;->mContext:Landroid/content/Context;
 
-<<<<<<< HEAD
     const v4, #android:interpolator@accelerate_decelerate#t
-=======
-    const v4, 0x10c0006
->>>>>>> 362867e... reset device
 
     invoke-static {v3, v4}, Landroid/view/animation/AnimationUtils;->loadInterpolator(Landroid/content/Context;I)Landroid/view/animation/Interpolator;
 
@@ -1443,11 +1431,7 @@
 
     const/4 v7, 0x0
 
-<<<<<<< HEAD
     const v5, #android:id@decor_content_parent#t
-=======
-    const v5, 0x102037c
->>>>>>> 362867e... reset device
 
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1466,11 +1450,7 @@
     invoke-virtual {v5, p0}, Lcom/android/internal/widget/MzActionBarOverlayLayout;->setActionBarVisibilityCallback(Lcom/android/internal/widget/MzActionBarOverlayLayout$ActionBarVisibilityCallback;)V
 
     :cond_0
-<<<<<<< HEAD
     const v5, #android:id@action_bar#t
-=======
-    const v5, 0x102037e
->>>>>>> 362867e... reset device
 
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1480,11 +1460,7 @@
 
     iput-object v5, p0, Lcom/android/internal/app/ActionBarImpl;->mDecorToolbar:Lcom/android/internal/widget/MzDecorToolbar;
 
-<<<<<<< HEAD
     const v5, #android:id@action_context_bar#t
-=======
-    const v5, 0x102037f
->>>>>>> 362867e... reset device
 
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1494,11 +1470,7 @@
 
     iput-object v5, p0, Lcom/android/internal/app/ActionBarImpl;->mContextView:Lcom/android/internal/widget/MzActionBarContextView;
 
-<<<<<<< HEAD
     const v5, #android:id@action_bar_container#t
-=======
-    const v5, 0x102037d
->>>>>>> 362867e... reset device
 
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1508,11 +1480,7 @@
 
     iput-object v5, p0, Lcom/android/internal/app/ActionBarImpl;->mContainerView:Lcom/android/internal/widget/MzActionBarContainer;
 
-<<<<<<< HEAD
     const v5, #android:id@split_action_bar#t
-=======
-    const v5, 0x1020380
->>>>>>> 362867e... reset device
 
     invoke-virtual {p1, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1648,11 +1616,7 @@
 
     sget-object v9, Landroid/R$styleable;->ActionBar:[I
 
-<<<<<<< HEAD
     const v10, #android:attr@actionBarStyle#t
-=======
-    const v10, 0x10102ce
->>>>>>> 362867e... reset device
 
     invoke-virtual {v5, v8, v9, v10, v7}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -3077,11 +3041,7 @@
     move-result-object v0
 
     .local v0, "currentTheme":Landroid/content/res/Resources$Theme;
-<<<<<<< HEAD
     const v3, #android:attr@actionBarWidgetTheme#t
-=======
-    const v3, 0x1010397
->>>>>>> 362867e... reset device
 
     const/4 v4, 0x1
 
