@@ -18,7 +18,7 @@ cp -v -rf $DEVICE_DIR/boot.img.out $DEVICE_DIR/boot.img.out.bak
 cp -v -rf $DEVICE_DIR/framework-res $DEVICE_DIR/framework-res.bak
 cp -v -rf $DEVICE_DIR/overlay/META-INF $DEVICE_DIR/overlay/META-INF.bak
 cp -v -rf $OTHER_DIR/storage_list.xml $DEVICE_DIR/framework-res/res/xml
-cp -v -rf $OTHER_DIR/fstab.qcom $OTHER_DIR/init.target.rc $DEVICE_DIR/boot.img.out/RAMDISK
+cp -v -rf $OTHER_DIR/fstab.qcom $OTHER_DIR/init.qcom.rc $DEVICE_DIR/boot.img.out/RAMDISK
 cp -v -rf $OTHER_DIR/META-INF $DEVICE_DIR/overlay
 echo
 echo ">>> make fullota again"
