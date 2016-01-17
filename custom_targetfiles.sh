@@ -1,6 +1,5 @@
 echo ">>> in $0"
 OUT_DIR=/home/bywwh/AndroidSource/FlymeOS/devices/aries/out/merged_target_files
-OTHER_DIR=/home/bywwh/AndroidSource/FlymeOS/devices/aries/other
 
 cd $OUT_DIR
 echo
@@ -21,5 +20,3 @@ echo
 mkdir -vp $OUT_DIR/DATA/system_app
 mv -vf $OUT_DIR/SYSTEM/app $OUT_DIR/DATA/system_app
 mv -vf $OUT_DIR/SYSTEM/priv-app $OUT_DIR/DATA/system_app
-cp -v -rf $OTHER_DIR/supersu $OUT_DIR/SYSTEM
-cp -v -rf $OTHER_DIR/data $OUT_DIR/DATA
