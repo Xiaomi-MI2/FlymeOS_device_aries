@@ -5,6 +5,7 @@ assert(getprop("ro.product.device") == "aries" ||
 show_progress(0.750000, 0);
 format("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/system", "0", "/system");
 mount("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/system", "/system", "");
+mount("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/userdata", "/data", "");
 package_extract_dir("recovery", "/system");
 package_extract_dir("system", "/system");
 package_extract_dir("data", "/data");
@@ -352,4 +353,5 @@ run_program("/sbin/busybox", "sh", "/tmp/supersu/META-INF/com/google/android/upd
 show_progress(0.050000, 5);
 package_extract_file("boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
 show_progress(0.200000, 10);
+unmount("/data");
 unmount("/system");
